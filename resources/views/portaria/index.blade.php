@@ -11,7 +11,26 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 flex justify-end">
 
         
-        
+        <div class="py-4">
+    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 flex justify-between items-center">
+        <div class="space-x-4">
+            <label for="subcargoFilter" class="text-gray-700">Filtrar por Subcargo:</label>
+            <select id="subcargoFilter" class="border rounded-md px-2 py-1">
+                <option value="">Todos</option>
+                <option value="CoordenadorExt">CoordenadorExt</option>
+                <!-- Adicione outras opções de Subcargos aqui conforme necessário -->
+            </select>
+        </div>
+        <div class="space-x-4">
+            <label for="servidorFilter" class="text-gray-700">Filtrar por Servidor:</label>
+            <select id="servidorFilter" class="border rounded-md px-2 py-1">
+                <option value="">Todos</option>
+                <!-- Adicione opções de Servidores aqui conforme necessário -->
+            </select>
+        </div>
+    </div>
+</div>
+
 
 
 
