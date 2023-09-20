@@ -27,7 +27,7 @@
                         </thead>
                         <tbody>
                             @foreach ($servidores as $servidor)
-                                <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                                <tr class="dark:bg-green-900 dark:border-white-900 dark:text-white">
                                     <td class="px-6 py-4">
                                         {{$servidor->nome}}
                                     </td>

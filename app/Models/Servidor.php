@@ -14,6 +14,7 @@ class Servidor extends Model
         'nome',
         'avatar',
         'cargo',
+        'Subcargo',
         'matricula',
         'telefone',
         'email',

@@ -49,7 +49,7 @@ class PortariaController extends Controller
             'descricao' => $request->descricao,
             'arquivo' => $nome,
             'integrantes_nao_servidores' => $request->integrantes_nao_servidores,
-            'arquivo' => $nome,
+           
         ]);
         if (!$portaria) {
             redirect()->back()->with('error', 'Erro ao cadastrar portaria');

@@ -36,6 +36,9 @@
                             <div class="mb-4">
                                 <span class="font-bold">Cargo:</span> <span>{{ $servidor->cargo }}</span>
                             </div>
+                            <div class="mb-4">
+                                <span class="font-bold">Subcargo:</span> <span>{{ $servidor->Subcargo }}</span>
+                            </div>
                         </div>
                         <div class="col-span-2 self-center">
                             <div class="mb-4">

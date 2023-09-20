@@ -26,6 +26,7 @@ class UpdateServidorRequest extends FormRequest
             'nome' => 'required',
             'matricula' => 'required',
             'cargo' => 'required',
+            'Subcargo' => 'required',
             'telefone' => 'required',
             'endereco' => 'required',
         ];

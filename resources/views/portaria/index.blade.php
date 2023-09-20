@@ -9,6 +9,12 @@
 
     <div class="py-4">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 flex justify-end">
+
+        
+        
+
+
+
             <a href="{{ route('portaria.create') }}">
                 <x-primary-button type="">Novo</x-primary-button>
             </a>
@@ -40,13 +46,16 @@
                                     Servidores
                                 </th>
                                 <th scope="col" class="px-6 py-3">
+                                    Subcargo
+                                </th>
+                                <th scope="col" class="px-6 py-3">
                                     Opções
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             @foreach ($portarias as $portaria)
-                                <tr class="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                                <tr class="bg-white border-b dark:bg-green-900 dark:border-white-900 dark:text-white">
                                     <th scope="row"
                                         class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                         {{ $portaria->numero }}/{{ $portaria->ano }}
@@ -69,6 +78,11 @@
                                     <td class="px-6 py-4">
                                         @foreach ($portaria->servidores as $servidor)
                                             <span>{{ $servidor->nome }}{{ $loop->last ? '' : ', ' }}</span>
+                                        @endforeach
+                                    </td>
+                                    <td class="px-6 py-4">
+                                        @foreach ($portaria->servidores as $servidor)
+                                            <span>{{ $servidor->Subcargo }}{{ $loop->last ? '' : ', ' }}</span>
                                         @endforeach
                                     </td>
                                     <td class="px-6 py-4">

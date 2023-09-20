@@ -26,6 +26,7 @@ class StoreServidorRequest extends FormRequest
             'nome' => 'required',
             'matricula' => 'required',
             'cargo' => 'required',
+            'Subcargo' => 'required',
             'email' => 'required|email|unique:servidores',
             'telefone' => 'required',
             'endereco' => 'required',

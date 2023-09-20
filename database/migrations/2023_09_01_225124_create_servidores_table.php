@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('nome');
             $table->string('avatar');
             $table->string('cargo');
+            $table->string('Subcargo');
             $table->string('matricula');
             $table->string('telefone');
             $table->string('email')->unique();

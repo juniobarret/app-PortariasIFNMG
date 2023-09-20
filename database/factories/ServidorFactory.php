@@ -21,6 +21,7 @@ class ServidorFactory extends Factory
             'nome' => $this->faker->name,
             'matricula' => $this->faker->numberBetween(100000, 999999),
             'cargo' => $this->faker->randomElement(['Professor', 'Técnico Administrativo', 'Coordenador', 'Diretor']),
+            'Subcargo' => $this->faker->randomElement(['CoordenadorCur', 'CoordenadorEns', 'CoordenadorExt', 'Outro']),
             'email' => $this->faker->unique()->safeEmail,
             'telefone' => $this->faker->phoneNumber,
             'endereco' => $this->faker->address,

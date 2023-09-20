@@ -38,6 +38,19 @@
                                     <option value="Técnico Administrativo">Técnico Administrativo</option>
                                 </select>
                             </div>
+                            <div class="mb-4">
+                                 <p>Você exersse alguma subfunção?</p>
+                                 
+                                <select name="Subcargo" required
+                                    
+                                    class="border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm">
+                                    <option value="" disabled selected>Não exerço</option>
+                                    <option value="CoordenadorCur">Coordenador de Curso</option>
+                                    <option value="CoordenadorEns">Coordenador de Ensino</option>
+                                    <option value="CoordenadorExt">Coordenador de Extensão</option>
+                                    <option value="Outro">Outro</option>
+                                </select>
+                            </div>
                         </div>
                         <div class="col-span-3 self-top">
                             <div class="mb-4">
